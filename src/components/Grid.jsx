@@ -10,7 +10,7 @@ export function Grid(){
     const [data, setData] = useState();
 
     useEffect(() => {
-      fetch("http://localhost:3333/all")
+      fetch("http://localhost:3333")
         .then((response) => response.json())  
 	      .then((res) => setData(res))
         .catch((err) => console.log(err));   
