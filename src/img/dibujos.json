@@ -1,0 +1,166 @@
+{
+    "dibujos": [
+        {
+            "id" : "1",
+            "ruta": "aqua1.jpg",
+            "nombre": "Pegatinas brillantes",
+            "fecha": "2020",
+            "descripcion": "Dibujo hecho de pegatinas/gomets"
+        },
+        {
+            "id" : "2",
+            "ruta": "aqua2.jpg",
+            "nombre": "Dibujo abstracto",
+            "fecha": "2021",
+            "descripcion": "Dibujo hecho con rotuladores brillantes"
+        },
+        {
+            "id" : "3",
+            "ruta": "aqua3.jpg",
+            "nombre": "Dibujo abstracto",
+            "fecha": "2020",
+            "descripcion": "Columpios y tobogán super divertido"
+        },
+        {
+            "id" : "4",
+            "ruta": "aqua4.jpg",
+            "nombre": "Mar arcoiris",
+            "fecha": "2020",
+            "descripcion": "Aguas y burbujas de colores"
+        },
+        {
+            "id" : "5",
+            "ruta": "aqua5.jpg",
+            "nombre": "Ves la mariposa?",
+            "fecha": "2020",
+            "descripcion": "Mariposa hecha con acuarelas"
+        },
+        {
+            "id" : "6",
+            "ruta": "aqua6.jpg",
+            "nombre": "Babyshark",
+            "fecha": "2020",
+            "descripcion": "Tiburones de baby shark bajo el mar"
+        },
+        {
+            "id" : "7",
+            "ruta": "aqua7.jpg",
+            "nombre": "Mar oscuro",
+            "fecha": "2020",
+            "descripcion": "Rascando ceras oscuras para que se vea el fondo de color"
+        },
+        {
+            "id" : "8",
+            "ruta": "arbol.jpg",
+            "nombre": "Mar oscuro",
+            "fecha": "2020",
+            "descripcion": "Árbol de mi familia (falta el Ares) tendre que ponerlo"
+        },
+        {
+            "id" : "9",
+            "ruta": "arco1.jpg",
+            "nombre": "Arco iris de rayo",
+            "fecha": "2020",
+            "descripcion": "Arcoiris de rayo y palitos del médico"
+        },
+        {
+            "id" : "10",
+            "ruta": "bobesponja.jpg",
+            "nombre": "Bob Esponja",
+            "fecha": "2019",
+            "descripcion": "¿Quién vive en la piña debajo del mar?"
+        },
+        {
+            "id" : "11",
+            "ruta": "bowsie.jpg",
+            "nombre": "Bowsie y sus hermanos",
+            "fecha": "2021",
+            "descripcion": "Bowsie y sus hermanos, mis favoritos de Super Mario"
+        },
+        {
+            "id" : "12",
+            "ruta": "charmander.jpg",
+            "nombre": "Charmander",
+            "fecha": "2020",
+            "descripcion": "Regalo de cumple que le dibujamos a la mama entre el papa y yo"
+        },
+        {
+            "id" : "13",
+            "ruta": "cumple pararijo.jpg",
+            "nombre": "Pajaritos traviesos",
+            "fecha": "2020",
+            "descripcion": "Los pajaritos que miran el pastel de cumpleaños"
+        },
+        {
+            "id" : "14",
+            "ruta": "david 6.jpg",
+            "nombre": "Cumple David 6",
+            "fecha": "2020",
+            "descripcion": "Pastel para el cumpleaños de mi amigo David"
+        },
+        {
+            "id" : "15",
+            "ruta": "fam1.jpg",
+            "nombre": "A dormir",
+            "fecha": "2019",
+            "descripcion": "Es hora de dormir, yo con los papas y el Ares en su cuna"
+        },
+        {
+            "id" : "16",
+            "ruta": "fondomar.jpg",
+            "nombre": "Bajo el mar",
+            "fecha": "2021",
+            "descripcion": "Vamos a bucear y vez que peces nos encontramos"
+        },
+        {
+            "id" : "17",
+            "ruta": "futbol.jpg",
+            "nombre": "Camiseta Barsa",
+            "fecha": "2022",
+            "descripcion": "Camiseta del jugador del barça más valioso del mundo"
+        },
+        {
+            "id" : "18",
+            "ruta": "gumball.jpg",
+            "nombre": "Gumball",
+            "fecha": "2022",
+            "descripcion": "Gumball, Darwin y el globo con voz de repelente"
+        },
+        {
+            "id" : "19",
+            "ruta": "happyfamily.jpg",
+            "nombre": "Familia Feliz",
+            "fecha": "2023",
+            "descripcion": "Le he dibujado este dibujo a mi madre cuando estaba con ella en su despacho, así cuando nos vayamos se acordará de nosotros."
+        },
+        {
+            "id" : "20",
+            "ruta": "pikachu.jpg",
+            "nombre": "Pika Pikachu",
+            "fecha": "2019",
+            "descripcion": "Pikachu con careto extraño"
+        },
+        {
+            "id" : "21",
+            "ruta": "playa.jpg",
+            "nombre": "Atardecer playero",
+            "fecha": "2023",
+            "descripcion": "Atardecer en la playa, con un muñeco del juego Class Dojo. Aparece en la playa sin ningún motivo"
+        },
+        {
+            "id" : "22",
+            "ruta": "puffy.jpg",
+            "nombre": "Puffy fire",
+            "fecha": "2023",
+            "descripcion": "Personaje del juego Grandia. Es la mascota del personaje Su. Juntos hacen el ataque Rah-Rah"
+        },
+        {
+            "id" : "23",
+            "ruta": "songoku.jpg",
+            "nombre": "Songoku",
+            "fecha": "2019",
+            "descripcion": "Goku subido en el núvol kington"
+        }
+    ]
+    
+}

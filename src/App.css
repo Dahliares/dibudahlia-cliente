@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/socake');
+
+:root {
+
+    --font-color: rgb(81, 16, 194);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background: url(img/scroll.jpg);
+    
+    padding-top: 80px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+
+    scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.navlink {
+
+    text-decoration: none;
+    color: var(--font-color);
+
 }
 
-.App-link {
-  color: #61dafb;
+.horizontal-padding {
+
+    padding-left: 25px;
+    padding-right: 25px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vertical-padding {
+
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
+
+h1{
+
+    font-family: 'Socake', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(85, 83, 83);
+    font-size: 50px;
+
+
+
+}
+
+
+
+
+
+
+@media (min-width:990px) {
+
+    .horizontal-padding {
+
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    .vertical-padding {
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
