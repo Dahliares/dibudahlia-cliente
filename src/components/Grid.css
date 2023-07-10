@@ -1,9 +1,9 @@
 .graella{
 
     padding: 0;
-    margin: 0;
+    margin:  0 30px;
     display: grid;
-    gap: 20px;
+    gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     
     
@@ -15,6 +15,9 @@
     border-radius: 10px;
     box-shadow: 0 4px 10px black;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 
 }
@@ -32,7 +35,7 @@
     border-radius: 10px 10px 0 0;
     box-shadow: 0 4px 10px cornflowerblue;
     max-height: 300px;
-    min-height: 200px;
+    height: 220px;
 }
 
 .descripcion{
@@ -46,6 +49,11 @@
     font-size: 12px;
 }
 
+.loading{
+
+    text-align: center;
+}
+
 
 @media (max-width: 560px){
 
@@ -53,6 +61,7 @@
 
         grid-template-columns: 90%;
         align-items: center;
+        align-content: center;
 
         
         

@@ -15,8 +15,9 @@ function App() {
 
         <Routes>
           <Route index path='/' element={<Gallery />} />
-          <Route path='/:id' element={<Detalle />} />
+          <Route path='/dibujo/:id' element={<Detalle />} />
           <Route path='/perfil' element={<Perfil />} />
+          <Route path='/year/:year' element={<Gallery />} />
         </Routes>
 
       </Router>

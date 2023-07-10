@@ -16,14 +16,17 @@ export function Detalle() {
       }, [id]);
 
     return (
-        <div>
+        
             {dibujo && dibujo.map((dib)=> (
-               <div key={dib.id}>{dib.name}
+               <div key={dib.id}>
+                
+                {dib.name}
+
                <img src={dib.img} alt="hola" />
                </div>
                
             ))}
             {console.log(dibujo)}
-        </div>
+        
     )
 }
