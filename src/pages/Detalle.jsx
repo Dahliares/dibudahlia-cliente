@@ -10,23 +10,21 @@ export function Detalle() {
     useEffect(() => {
         fetch('http://localhost:3333/'+ id)
           .then((response) => response.json())  
-          .then((res) => setDibujo(res))
+          .then((res) => setDibujo(res[0]))
           .catch((err) => console.log(err));   
   
       }, [id]);
 
     return (
         
-            {dibujo && dibujo.map((dib)=> (
-               <div key={dib.id}>
+             
+             
+                 
+                <div>hola</div>
+              
                 
-                {dib.name}
-
-               <img src={dib.img} alt="hola" />
-               </div>
-               
-            ))}
-            {console.log(dibujo)}
+            
+            
         
     )
 }
