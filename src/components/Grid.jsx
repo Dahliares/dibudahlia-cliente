@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'react';
-import dibujosJson from '../img/dibujos.json';
 import { Dibujo } from './Dibujo';
-import '../components/Grid.css';
-import Loading from './../img/loading.gif'
+import { Loading } from './Loading';
+
 
 
 export function Grid() {
 
-  const [dibujos, setDibujos] = useState(dibujosJson);
-  const [data, setData] = useState();
+  const [dibujos, setDibujos] = useState();
+  
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -16,7 +15,7 @@ export function Grid() {
     fetch("http://localhost:3333")
       .then((response) => response.json())
       .then((res) => {
-        setData(res);
+        setDibujos(res);
         setIsLoading(false);
       }
       )
@@ -28,16 +27,10 @@ export function Grid() {
 
   return (
     <>
-      <div className='loading'>{isLoading ? 
-        <>
-        <div>Cargando...</div>
-        <img src={Loading} /> 
-          
-        </>
-        : ""}</div>
+      {isLoading? <Loading /> : ""}
       <div className='graella'>
-
-        {data?.map((item) => (
+        
+        {dibujos?.map((item) => (
           <Dibujo key={item.id} dibujo={item} />
         ))}
       </div>

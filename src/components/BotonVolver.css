@@ -1,0 +1,11 @@
+.volver{
+
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    box-shadow: 0 4px 10px black;
+    margin: 20px;
+}

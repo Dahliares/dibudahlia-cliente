@@ -1,0 +1,68 @@
+.banner{
+
+height: 80px;
+align-items: center;
+text-align: center;
+
+background-color: red;
+color: yellow;
+
+border: darkred dashed 5px;
+max-width: 60%;
+padding-top: 20px;
+margin: 20px auto;
+font-weight: bolder;
+font-family:Arial, Helvetica, sans-serif;
+
+-webkit-animation:fontbulger 3s infinite;
+-moz-animation:fontbulger 3s infinite;
+-o-animation:fontbulger 3s infinite;
+animation:fontbulger 3s infinite;
+}
+
+
+
+
+@-webkit-keyframes fontbulger  {
+0%, 100% {
+   font-size:20px;
+}
+
+50% {
+   font-size:30px;
+}
+
+}
+
+@-moz-keyframes fontbulger  {
+0%, 100% {
+   font-size:20px;
+}
+
+50% {
+   font-size:30px;
+}
+
+}
+
+@-o-keyframes fontbulger  {
+0%, 100% {
+   font-size:20px;
+}
+
+50% {
+   font-size:30px;
+}
+
+}
+
+@keyframes fontbulger  {
+0%, 100% {
+   font-size:20px;
+}
+
+50% {
+   font-size:30px;
+}
+
+}

@@ -17,7 +17,7 @@ function App() {
           <Route index path='/' element={<Gallery />} />
           <Route path='/dibujo/:id' element={<Detalle />} />
           <Route path='/perfil' element={<Perfil />} />
-          <Route path='/year/:year' element={<Gallery />} />
+          <Route path='/year/:year' element={<Detalle />} />
         </Routes>
 
       </Router>
