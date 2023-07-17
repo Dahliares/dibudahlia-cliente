@@ -4,6 +4,7 @@ import { Gallery} from './pages/Gallery';
 import { NavBar } from './components/NavBar';
 import { Perfil } from './pages/Perfil';
 import { Detalle } from './pages/Detalle';
+import { Contacto } from './pages/Contacto';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Route index path='/' element={<Gallery />} />
           <Route path='/dibujo/:id' element={<Detalle />} />
           <Route path='/perfil' element={<Perfil />} />
-          <Route path='/year/:year' element={<Detalle />} />
+          <Route path='/contacto' element={<Contacto />} />
         </Routes>
 
       </Router>

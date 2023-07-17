@@ -40,7 +40,5 @@ export function Grid() {
 
   )
 
-  /*{dibujosJson.dibujos.map((dibujo) => (
-            <Dibujo key={dibujo.id} dibujo={dibujo}/>
-          ))}*/
+
 }
