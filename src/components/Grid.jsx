@@ -12,7 +12,7 @@ export function Grid() {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("http://localhost:3333")
+    fetch("https://saraland-server.up.railway.app")
       .then((response) => response.json())
       .then((res) => {
         setDibujos(res);

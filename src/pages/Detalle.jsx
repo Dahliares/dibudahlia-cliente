@@ -10,7 +10,7 @@ export function Detalle() {
     const {id} = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:3333/dibujo/${id}`)
+        fetch(`https://saraland-server.up.railway.app/dibujo/${id}`)
           .then((response) => response.json())  
           .then((res) => setDibujo(res[0]))
           .catch((err) => console.log(err));   
