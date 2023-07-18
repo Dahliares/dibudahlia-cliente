@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './NavBar.css'
-import { FaBars as MenuIcon, FaRegWindowClose as CloseIcon } from 'react-icons/fa';
+import { FaBars as MenuIcon, FaRegWindowClose as CloseIcon,FaPalette as PaletIcon } from 'react-icons/fa';
+
 import { useState } from 'react';
 
 export function NavBar() {
@@ -10,9 +11,10 @@ export function NavBar() {
     return (
         <header className='topheader'>
             <nav className='topnav'>
-                <div className="logotype">
-                    Dibu- Dahlia
-                </div>
+
+               
+                <NavLink className="logotype" to="/" ><PaletIcon /> &nbsp; Dibu-Dahlia</NavLink>
+
                 <button className="open-menu icon"
                         onClick={() => {
                         setIsOpen(true)

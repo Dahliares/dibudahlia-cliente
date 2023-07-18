@@ -55,8 +55,9 @@
     font-size: 40px;
     font-family: 'Luckie Bluchi', sans-serif;
     padding-top: 10px;
-    text-shadow: 3px 3px 20px #ff99cc,
-    -2px 1px 30px #ff99cc;
+    text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+    text-decoration: none;
+    color: black;
 }
 
 /*MENU*/

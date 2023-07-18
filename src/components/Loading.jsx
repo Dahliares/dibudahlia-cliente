@@ -1,4 +1,4 @@
-import Pajaro from './../img/loading.gif';
+import LoadingGif from './../img/loading.gif';
 import './Loading.css'
 
 export function Loading() {
@@ -8,9 +8,8 @@ export function Loading() {
     return (
 
         
-            <div className='loading'>
-                <div>Cargando...</div>
-                <img src={Pajaro} alt="loading" />
+            <div className='loading'>                
+                <img src={LoadingGif} alt="loading" />
             </div>
         
     )

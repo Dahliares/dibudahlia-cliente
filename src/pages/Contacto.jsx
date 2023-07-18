@@ -52,7 +52,7 @@ const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
                     <input type="text" name="email" id="email" />
 
                     <label htmlFor="message">Tu mensaje:</label>
-                    <textarea name="message" id="message" rows="6" required></textarea>
+                    <textarea name="message" id="message" rows="4" required></textarea>
 
                     <input type="submit" id="button" value="Enviar mensaje" />
                 </form>
