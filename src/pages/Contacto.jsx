@@ -24,6 +24,7 @@ const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
           
       }, (error) => {
           console.log(error.text);
+          alert("Error, mensaje no enviado!");
       });
   };
 
