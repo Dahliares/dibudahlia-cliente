@@ -6,6 +6,9 @@ import { useNavigate } from 'react-router-dom';
 
 export function Contacto() {
 
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
 
     const navigate = useNavigate();
     const form = useRef();
@@ -13,7 +16,7 @@ export function Contacto() {
     const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('default_service', 'template_wnqf9sh', form.current, 'mAyxNveNxqnZ_1nw8')
+      emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
           alert("Mensaje enviado!");
@@ -41,13 +44,13 @@ export function Contacto() {
 
                 <form id="form" className="form" ref={form} onSubmit={sendEmail}>
 
-                    <label for="from_name">Tu nombre:</label>
+                    <label htmlFor="from_name">Tu nombre:</label>
                     <input type="text" name="from_name" id="from_name" required />
 
-                    <label for="email">Tu e-mail (si tienes):</label>
+                    <label htmlFor="email">Tu e-mail (si tienes):</label>
                     <input type="text" name="email" id="email" />
 
-                    <label for="message">Tu mensaje:</label>
+                    <label htmlFor="message">Tu mensaje:</label>
                     <textarea name="message" id="message" rows="6" required></textarea>
 
                     <input type="submit" id="button" value="Enviar mensaje" />
