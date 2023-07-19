@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
+import '../components/ContactForm.css'
 
 export function ContactForm() {
 

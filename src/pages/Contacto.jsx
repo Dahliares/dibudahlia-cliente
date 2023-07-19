@@ -1,4 +1,3 @@
-import '../pages/Contacto.css'
 import { ContactForm } from '../components/ContactForm';
 
 
