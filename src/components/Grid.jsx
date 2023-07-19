@@ -12,7 +12,11 @@ export function Grid() {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://saraland-server.up.railway.app")
+    fetch("https://saraland-server.up.railway.app",{
+      'mode': 'cors',
+      'headers': {
+          'Access-Control-Allow-Origin': '*',
+      }})
       .then((response) => response.json())
       .then((res) => {
         setDibujos(res);
