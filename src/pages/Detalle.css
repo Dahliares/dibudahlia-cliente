@@ -30,6 +30,8 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-width: 500px;
+    
 }
 
 @media (max-width:990px) {
@@ -38,6 +40,14 @@ flex-direction: column;
     
     flex-direction: column;
     text-align: center;
+}
+
+.detalle-img{
+
+    max-width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+
 }
 
 }
