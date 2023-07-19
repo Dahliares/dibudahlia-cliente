@@ -1,5 +1,6 @@
 .volver{
 
+    text-align: center;
     background-color: blueviolet;
     color: aliceblue;
     font-size: 20px;
@@ -8,4 +9,5 @@
     padding: 10px 30px;
     box-shadow: 0 4px 10px black;
     margin: 20px;
+    
 }

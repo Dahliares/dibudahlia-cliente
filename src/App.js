@@ -5,7 +5,7 @@ import { NavBar } from './components/NavBar';
 import { Perfil } from './pages/Perfil';
 import { Detalle } from './pages/Detalle';
 import { Contacto } from './pages/Contacto';
-
+import { NotFound404 } from './pages/NotFound404';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           <Route path='/dibujo/:id' element={<Detalle />} />
           <Route path='/perfil' element={<Perfil />} />
           <Route path='/contacto' element={<Contacto />} />
+          <Route path='/*' element={<NotFound404 />} />
         </Routes>
 
       </Router>

@@ -3,7 +3,7 @@ import './BotonVolver.css'
 
 export function BotonVolver() {
     return (
-        <Link to='/'>
+        <Link to='/' >
             <button className='volver'>
                 Volver
             </button>
