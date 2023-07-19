@@ -36,6 +36,7 @@ export function Detalles() {
                      <div><strong>Título: </strong><br />{dibujo?.name}</div>
                      <div><strong>Descripción: </strong> <br />{dibujo?.description}</div>
                      <div><strong>Año de creación:</strong> <br />{dibujo?.year}</div>
+                     <div><strong>{dibujo.vendido? "VENDIDO":""}</strong></div>
                  </div>
              </div>
              <BotonVolver />

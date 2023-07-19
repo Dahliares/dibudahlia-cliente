@@ -50,7 +50,7 @@ h1{
     padding: 0;
     margin-top: 30px;
     margin-bottom: 0;
-    color: rgb(85, 83, 83);
+    color: var(--font-color);
     font-size: 50px;
 
 }
