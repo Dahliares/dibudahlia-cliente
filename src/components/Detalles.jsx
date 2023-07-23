@@ -4,6 +4,8 @@ import { Loading } from '../components/Loading';
 import { BotonVolver } from "../components/BotonVolver";
 import './Detalles.css'
 
+import { Comentarios } from "./comentarios/Comentarios";
+
 export function Detalles() {
 
     const [dibujo, setDibujo] = useState(null);
@@ -39,6 +41,9 @@ export function Detalles() {
                      <div style={{color:'red'}}><strong>{dibujo?.vendido? "VENDIDO":""}</strong></div>
                  </div>
              </div>
+
+             <Comentarios/>
+
              <BotonVolver />
          </div>
          }       

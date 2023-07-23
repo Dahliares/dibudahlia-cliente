@@ -1,0 +1,23 @@
+.lista-comentarios{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    width: 50%;
+    margin: 20px auto;
+    
+    
+}
+
+@media (max-width: 990px){
+
+    .lista-comentarios{
+
+        width: 90%;
+        
+        
+    }
+    
+   
+}
