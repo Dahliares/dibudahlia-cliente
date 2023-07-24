@@ -40,7 +40,7 @@ export function CommentForm({id}) {
             Swal.fire({
                 imageUrl:'https://dibudahlia.saraland.es/static/media/dahlita.03f266d7dec2b6dd8265.png',
                 imageHeight: 200,
-                title:"Gracias por tu mensaje!!",
+                title:"Gracias por tu comentario!!",
                 confirmButtonText: 'OK',
                 
             }).then((result)=>{
