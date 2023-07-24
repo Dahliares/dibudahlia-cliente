@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
 import '../components/ContactForm.css'
+import Swal from 'sweetalert2'
 
 export function ContactForm() {
 
@@ -18,7 +19,15 @@ export function ContactForm() {
           emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
           .then((result) => {
               console.log(result.text);
-              alert("Mensaje enviado!");
+              
+              Swal.fire({
+                title:"Mensaje enviado!!",
+                imageUrl:'http://localhost:3000/static/media/dahlita.03f266d7dec2b6dd8265.png',
+                imageHeight: 200,
+                text: 'En cuanto vea tu mensaje te contestaré!',
+                confirmButtonText: 'OK',
+                
+            });
             navigate('/');
               
           }, (error) => {

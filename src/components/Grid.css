@@ -38,6 +38,8 @@
     box-shadow: 0 4px 10px cornflowerblue;
     max-height: 300px;
     height: 220px;
+    filter: brightness(1.2);
+    
     
     
     

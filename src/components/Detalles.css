@@ -13,6 +13,7 @@
     max-width: 500px;
     border-radius: 10px;
     box-shadow: 0 4px 10px black;
+    filter: brightness(1.2);
 
 }
 

@@ -1,7 +1,11 @@
 import './CommentForm.css'
+import Swal from 'sweetalert2'
+import { useNavigate } from 'react-router-dom';
+
 
 export function CommentForm({id}) {
 
+const navigate = useNavigate();
     const ide = id;
 
     const handleSubmit = (e) => {
@@ -32,8 +36,20 @@ export function CommentForm({id}) {
             .then((data) => {
             
             console.log(data);
-            alert(data.mensaje);
-            window.location.reload(true) ;
+            
+            Swal.fire({
+                imageUrl:'http://localhost:3000/static/media/dahlita.03f266d7dec2b6dd8265.png',
+                imageHeight: 200,
+                title:"Gracias por tu mensaje!!",
+                confirmButtonText: 'OK',
+                
+            }).then((result)=>{
+
+                window.location.reload(true);
+            });
+
+            
+            
             
     })
             .catch((err) => console.log(err));
