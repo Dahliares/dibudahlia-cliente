@@ -1,11 +1,11 @@
 import './CommentForm.css'
 import Swal from 'sweetalert2'
-import { useNavigate } from 'react-router-dom';
+
 
 
 export function CommentForm({id}) {
 
-const navigate = useNavigate();
+
     const ide = id;
 
     const handleSubmit = (e) => {
@@ -44,8 +44,9 @@ const navigate = useNavigate();
                 confirmButtonText: 'OK',
                 
             }).then((result)=>{
-
+                if (result.isConfirmed) {
                 window.location.reload(true);
+                }
             });
 
             
