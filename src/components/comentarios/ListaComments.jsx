@@ -9,7 +9,7 @@ export function ListaComments() {
 
     useEffect(() => {
        
-          fetch(`http://localhost:3333/comentarios/${id}`)
+          fetch(`https://saraland-server.up.railway.app/comentarios/${id}`)
             .then((response) => response.json())  
             .then((res) => {
                 setComentarios(res); 
