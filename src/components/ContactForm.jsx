@@ -22,7 +22,7 @@ export function ContactForm() {
               
               Swal.fire({
                 title:"Mensaje enviado!!",
-                imageUrl:'http://localhost:3000/static/media/dahlita.03f266d7dec2b6dd8265.png',
+                imageUrl:'https://dibudahlia.saraland.es/static/media/dahlita.03f266d7dec2b6dd8265.png',
                 imageHeight: 200,
                 text: 'En cuanto vea tu mensaje te contestaré!',
                 confirmButtonText: 'OK',

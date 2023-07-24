@@ -38,7 +38,7 @@ export function CommentForm({id}) {
             console.log(data);
             
             Swal.fire({
-                imageUrl:'http://localhost:3000/static/media/dahlita.03f266d7dec2b6dd8265.png',
+                imageUrl:'https://dibudahlia.saraland.es/static/media/dahlita.03f266d7dec2b6dd8265.png',
                 imageHeight: 200,
                 title:"Gracias por tu mensaje!!",
                 confirmButtonText: 'OK',
