@@ -33,7 +33,7 @@ export function NavBar() {
                         <NavLink 
                         to="/" 
                         className={({ isActive }) => (isActive ? "selected navlink" : "navlink")} 
-                        onClick={() => {setIsOpen(false)}}>Gallery</NavLink>
+                        onClick={() => {setIsOpen(false)}}>Galería</NavLink>
                     </li>
                     <li>
                         <NavLink 

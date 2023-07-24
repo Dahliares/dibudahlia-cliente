@@ -1,0 +1,44 @@
+.comment-form{
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    margin: 20px auto;
+    gap: 5px;
+    
+    
+}
+
+.comment-form label{
+    font-weight: bold;
+}
+
+.comment-form input,
+.comment-form textarea{
+
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn-enviar{
+
+    width: 150px;
+    border: solid black 1px;
+    background-color: turquoise;
+    box-shadow: 0 4px 10px darkcyan;
+}
+
+
+
+@media (max-width: 990px){
+
+    .comment-form{
+
+        width: 90%;
+        
+        
+    }
+    
+   
+}

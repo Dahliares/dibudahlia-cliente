@@ -1,0 +1,35 @@
+.lista-comentarios{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    width: 50%;
+    margin: 20px auto;
+    
+    
+}
+
+.comentario{
+
+    padding: 15px;
+    background-color:rgb(240, 248, 255, 0.8);
+
+    
+
+
+}
+
+@media (max-width: 990px){
+
+    .lista-comentarios{
+
+        width: 90%;
+        
+        
+    }
+    
+   
+}
+
+
