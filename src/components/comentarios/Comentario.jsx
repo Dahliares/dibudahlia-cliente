@@ -1,8 +1,10 @@
+import './ListaComments.css'
+
 export function Comentario({comentario}) {
 
     return (
         <div className="comentario">
-            <div><strong>Nombre:</strong> {comentario.user}</div>
+            <div><strong>{comentario.user}</strong> </div>
             <div>{comentario.comentario}</div>
         </div>
     )

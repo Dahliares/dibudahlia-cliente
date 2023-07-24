@@ -42,7 +42,7 @@ export function Detalles() {
                  </div>
              </div>
 
-             <Comentarios/>
+             <Comentarios id={dibujo?.id}/>
 
              <BotonVolver />
          </div>

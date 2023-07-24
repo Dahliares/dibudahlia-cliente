@@ -2,9 +2,9 @@ import { useState, useEffect} from "react";
 import { Comentario } from './Comentario';
 import './ListaComments.css'
 
-export function ListaComments() {
+export function ListaComments({id}) {
 
-    const id = 1;
+    
     const [comentarios, setComentarios] = useState();
 
     useEffect(() => {

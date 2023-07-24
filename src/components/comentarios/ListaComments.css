@@ -10,6 +10,16 @@
     
 }
 
+.comentario{
+
+    padding: 15px;
+    background-color:rgb(240, 248, 255, 0.8);
+
+    
+
+
+}
+
 @media (max-width: 990px){
 
     .lista-comentarios{
@@ -21,3 +31,5 @@
     
    
 }
+
+
