@@ -1,11 +1,13 @@
+
 import './CommentForm.css'
 import Swal from 'sweetalert2'
 
 
 
-export function CommentForm({id}) {
 
+export function CommentForm({id, SumarComentario}) {
 
+   
     const ide = id;
 
     const handleSubmit = (e) => {
@@ -23,7 +25,8 @@ export function CommentForm({id}) {
         
         console.log(data);
         console.log(e.target.comentario.value);
-
+        
+       
         fetch('https://saraland-server.up.railway.app/comentario', {         
             method: 'POST',
             headers: {
@@ -45,10 +48,12 @@ export function CommentForm({id}) {
                 
             }).then((result)=>{
                 if (result.isConfirmed) {
-                window.location.reload(true);
+                SumarComentario();
+                e.target.reset();
+
                 }
             });
-
+        
             
             
             
