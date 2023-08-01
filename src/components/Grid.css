@@ -31,7 +31,7 @@
 
 }
 
-.dibujo .dibujo-img{
+.dibujo-img{
 
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -68,7 +68,7 @@
     
 }
 
-.vendido .vendido-img{
+.vendido-img{
     width: 50%;
     height: 50%;
 }
