@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 
 export function AddForm() {
 
-    const navigate = useNavigate;
+    const navigate = useNavigate();
     let imgBase64;
 
 
@@ -51,6 +51,7 @@ export function AddForm() {
             .then((data) => {
                 console.log(data);
                 alert("dibujo insertado");
+                navigate('/');
 
             }).catch((err) => console.log(err));
 

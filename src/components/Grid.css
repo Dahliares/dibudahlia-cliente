@@ -31,7 +31,7 @@
 
 }
 
-.dibujo img{
+.dibujo .dibujo-img{
 
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -64,6 +64,13 @@
 .vendido{
 
     position: absolute;
+    text-align: left;
+    
+}
+
+.vendido .vendido-img{
+    width: 50%;
+    height: 50%;
 }
 
 .descripcion{
